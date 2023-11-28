@@ -1,0 +1,17 @@
+* {box-sizing:border-box;}
+body {margin:0;}
+img {width:100%;}
+.two-column-section {
+  width:80%;
+  margin: 80px auto;
+  gap:40px;
+}
+.two-column-section, .thumbnail-container {
+  display:flex;
+}
+.thumbnail-container {
+  gap:10px;
+}
+.two-column-section div, .thumbnail-container div {
+  flex:1;
+}
